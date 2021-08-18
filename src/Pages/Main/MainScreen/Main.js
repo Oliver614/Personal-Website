@@ -6,9 +6,6 @@ import {AboutBig, AboutSmall, SocialsWidget} from './MainWidgets/MainWidgets'
 
 class MainScreen extends React.Component
 {
-
-    
-
     render()
     {
         return(
