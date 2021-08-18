@@ -4,7 +4,7 @@ import React from 'react';
 import EnterScreen from './EntryScreen/EnterScreen';
 import backgroundImage from './File_000.jpeg';
 import MainScreen from './MainScreen/Main';
-import { BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {AnimatePresence} from 'framer-motion'
 
 
@@ -29,7 +29,7 @@ class App extends React.Component
     return (
       
         <div className="App">
-          <img src = {backgroundImage}/>
+          <img src = {backgroundImage} alt = "Landscape Image"/>
         <Router>
         <Route
           render = {({location}) => ( 

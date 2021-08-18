@@ -2,7 +2,7 @@ import React from 'react';
 import './Main.css';
 import {motion} from 'framer-motion';
 import {AboutBig, AboutSmall, SocialsWidget} from './MainWidgets/MainWidgets'
-import {Link} from 'react-router-dom';
+
 
 class MainScreen extends React.Component
 {
