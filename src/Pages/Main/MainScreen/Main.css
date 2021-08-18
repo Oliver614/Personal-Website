@@ -1,0 +1,24 @@
+
+.container{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80vw;
+    height: 80vh;
+    gap: 10px;
+}
+
+
+
+.smallContainer{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    gap: 10px
+}
+
+.name {
+    color: rgb(209, 209, 209);
+}

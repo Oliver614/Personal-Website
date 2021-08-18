@@ -1,0 +1,51 @@
+.SearchResultsBig {
+    
+    width: 45vw;
+    height: 80vh;
+    overflow-y: scroll;
+    padding: .88rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    box-shadow: 0 4px 2px 2px #000000;
+    color: rgb(209, 209, 209);
+  }
+
+  .SearchResultsSmall {
+    
+    width: 20vw;
+    height: 15vh;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+    box-shadow: 0 4px 2px 2px #000000;
+    color: rgb(209, 209, 209);
+  }
+
+  .SearchResultsSocial {
+    
+    width: 20vw;
+    height: 10vh;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+    box-shadow: 0 4px 2px 2px #000000;
+    color: rgb(209, 209, 209);
+    
+  }
+
+  
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.title {
+  position: sticky;
+  top: 10px;
+}
+
+
+  

@@ -1,0 +1,63 @@
+
+.Enter {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    object-fit: contain;
+}
+
+.Discover {
+    cursor: pointer;
+    width: 8.11rem;
+    padding: .77rem 1.5rem;
+    border-radius: 54px;
+    background-color: #000418b4;
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+.Discover:Hover {
+    background-color: #00041842;
+}
+
+
+.socialContainer {
+    padding: 10px
+}
+
+.socialIcon {
+    width: 60px;
+    height: 60px;
+    background-color: #000418b4;
+    border: 0px;
+    border-radius: 50% ;
+}
+
+.socialIcon:hover{
+    
+    background-color: #00041842
+}
+
+.socialButton {
+    
+    background-color: #00041800;
+    border: 0px;
+}
+
+.socialButton:hover{
+    
+    background-color: #00041800
+}
+
+
+
+  
