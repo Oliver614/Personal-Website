@@ -29,7 +29,7 @@ class App extends React.Component
     return (
       
         <div className="App">
-          <img src = {backgroundImage} alt = "Landscape Image"/>
+          <img src = {backgroundImage} alt = "Landscape"/>
         <Router>
         <Route
           render = {({location}) => ( 
