@@ -1,4 +1,4 @@
-.SearchResultsBig {
+.BigContainer {
     
     width: 45vw;
     height: 80vh;
@@ -9,9 +9,9 @@
     color: rgb(209, 209, 209);
   }
 
-  .SearchResultsSmall {
+  .SmallContainer {
     
-    width: 20vw;
+    width: 40vw;
     height: 15vh;
     overflow-y: scroll;
     padding-bottom: 10px;
@@ -22,10 +22,10 @@
     color: rgb(209, 209, 209);
   }
 
-  .SearchResultsSocial {
+  .Social {
     
-    width: 20vw;
-    height: 10vh;
+    width: 40vw;
+    height: 13.2vh;
     overflow-y: scroll;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -47,5 +47,22 @@
   top: 10px;
 }
 
+.Projects {
+
+    width: 40vw;
+    height: 50vh;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+    box-shadow: 0 4px 2px 2px #000000;
+    color: rgb(209, 209, 209);
+
+}
+
+.SocialButton{
+  transform: scale(2);
+}
 
   

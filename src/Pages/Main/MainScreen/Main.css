@@ -19,6 +19,14 @@
     gap: 10px
 }
 
+.aboutnSocialContainer{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
 .name {
     color: rgb(209, 209, 209);
 }

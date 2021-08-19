@@ -11,11 +11,10 @@ export class AboutBig extends React.Component
     {
         return(
             <motion.div 
-            className = "SearchResultsBig"
+            className = "BigContainer"
             whileHover = {{scale: 1.01}}>
-                <h2>About</h2>
-                <p>I do not know why i am writing this all i 
-                    know is that i hope it manages to wrap itself before i loose my mind.</p>
+                <h2>Show Case</h2>
+                <p>PUT A GAME HERE</p>
                 
             </motion.div>
         );
@@ -30,9 +29,32 @@ export class AboutSmall extends React.Component
     {
         return(
             <motion.div 
-            className = "SearchResultsSmall"
+            className = "SmallContainer"
             whileHover = {{scale: 1.01}}>
                 <h2 className = "title" >About</h2>
+                <p>I do not know why i am writing this all i 
+                    know is that i hope it manages to wrap itself before i loose my mind.
+                    I do not know why i am writing this all i 
+                    know is that i hope it manages to wrap itself before i loose my mind.
+                    I do not know why i am writing this all i 
+                    know is that i hope it manages to wrap itself before i loose my mind.</p>
+                
+            </motion.div>
+        );
+
+    }
+}
+
+export class Projects extends React.Component
+{
+    motion = <motion.div></motion.div>
+    render()
+    {
+        return(
+            <motion.div 
+            className = "Projects"
+            whileHover = {{scale: 1.01}}>
+                <h2 className = "title" >Projects</h2>
                 <p>I do not know why i am writing this all i 
                     know is that i hope it manages to wrap itself before i loose my mind.
                     I do not know why i am writing this all i 
@@ -51,7 +73,7 @@ export class SocialsWidget extends React.Component
     render()
     {
         return(
-            <div className = "SearchResultsSocial">
+            <div className = "Social">
                 <h2 className = "title">Social</h2>
 
                 <div>
@@ -67,9 +89,14 @@ export class SocialsWidget extends React.Component
                     <motion.button className = "socialButton" whileHover = {{scale: 1.05}} >
                         <SocialIcon className = "socialIcon" url="https://github.com" target="_blank"/>
                     </motion.button>
+
+                    <motion.button className = "socialButton" whileHover = {{scale: 1.05}} >
+                        <SocialIcon className = "socialIcon" url="https://instagram.com" target="_blank"/>
+                    </motion.button>
                 </div>
             </div>
         );
     }
 
 }
+

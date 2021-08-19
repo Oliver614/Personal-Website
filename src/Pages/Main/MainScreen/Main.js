@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 import {motion} from 'framer-motion';
-import {AboutBig, AboutSmall, SocialsWidget} from './MainWidgets/MainWidgets'
+import {AboutBig, AboutSmall, SocialsWidget, Projects} from './MainWidgets/MainWidgets'
 
 
 class MainScreen extends React.Component
@@ -17,9 +17,14 @@ class MainScreen extends React.Component
                     <div className = "container">
                         <AboutBig/>
                         <div className = "smallContainer">
+                            <div className = "aboutnSocialContainer">
+                            <AboutSmall/>
+                            
+                            </div>
+                            <Projects/>
                             <SocialsWidget/>
-                            <AboutSmall/>
-                            <AboutSmall/>
+                            
+                            
                         </div>
                     </div>
                     
