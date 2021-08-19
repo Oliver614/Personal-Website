@@ -2,7 +2,7 @@
 import './App.css';
 import React from 'react';
 import EnterScreen from './EntryScreen/EnterScreen';
-import backgroundImage from './File_000.jpeg';
+import backgroundImage from './File_000_New.jpeg';
 import MainScreen from './MainScreen/Main';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {AnimatePresence} from 'framer-motion'
