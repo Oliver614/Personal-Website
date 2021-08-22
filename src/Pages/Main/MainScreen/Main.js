@@ -23,7 +23,7 @@ class MainScreen extends React.Component
                         animate = {{opacity: 1, x: 0, transition: {delay: 0.5, duration: 1}}}
                         >
 
-                        <img className = "Initials" src = {intials}/>
+                        <img className = "Initials" src = {intials} alt = ""/>
                     </motion.div>
                     <div className = "container">
                         
