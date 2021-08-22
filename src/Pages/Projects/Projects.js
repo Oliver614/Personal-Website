@@ -15,7 +15,7 @@ export class Projects extends React.Component
             <div>
 
                 <motion.div
-                    initial = {{x: -300, opacity: 0}} 
+                    initial = {{x: '-30vw', opacity: 0}} 
                     animate = {{x: 0, opacity: 1, transition: {delay: 1.2, duration: 1}}} 
                     className = "ProjectsHeader">
                     <img className = "Initials" src = {intials} alt = ""/>

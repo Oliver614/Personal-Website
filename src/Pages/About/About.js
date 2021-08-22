@@ -13,8 +13,8 @@ export class About extends React.Component
         return(
             <div>
                 <motion.div 
-                    initial = {{x: -300, opacity: 0}} 
-                    animate = {{y: '0vh', opacity: 1, transition: {delay: 1.2, duration: 1}}}
+                    initial = {{x: '-30vw', opacity: 0}} 
+                    animate = {{x: '0vh', opacity: 1, transition: {delay: 1.2, duration: 1}}}
                     className = "AboutHeader">
                     <img className = "Initials" src = {intials} alt = ""/>
                 </motion.div>
