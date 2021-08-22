@@ -4,6 +4,7 @@ import {motion} from 'framer-motion';
 import { SocialIcon } from 'react-social-icons';
 
 
+
 export class AboutBig extends React.Component
 {
     
@@ -14,7 +15,7 @@ export class AboutBig extends React.Component
             className = "BigContainer"
             whileHover = {{scale: 1.01}}>
                 <h2>Show Case</h2>
-                <p>PUT A GAME HERE</p>
+                <p></p>
                 
             </motion.div>
         );
@@ -32,12 +33,7 @@ export class AboutSmall extends React.Component
             className = "SmallContainer"
             whileHover = {{scale: 1.01}}>
                 <h2 className = "title" >About</h2>
-                <p>I do not know why i am writing this all i 
-                    know is that i hope it manages to wrap itself before i loose my mind.
-                    I do not know why i am writing this all i 
-                    know is that i hope it manages to wrap itself before i loose my mind.
-                    I do not know why i am writing this all i 
-                    know is that i hope it manages to wrap itself before i loose my mind.</p>
+                <p></p>
                 
             </motion.div>
         );
@@ -52,15 +48,10 @@ export class Projects extends React.Component
     {
         return(
             <motion.div 
-            className = "Projects"
+            className = "ProjectsWidget"
             whileHover = {{scale: 1.01}}>
                 <h2 className = "title" >Projects</h2>
-                <p>I do not know why i am writing this all i 
-                    know is that i hope it manages to wrap itself before i loose my mind.
-                    I do not know why i am writing this all i 
-                    know is that i hope it manages to wrap itself before i loose my mind.
-                    I do not know why i am writing this all i 
-                    know is that i hope it manages to wrap itself before i loose my mind.</p>
+                <p></p>
                 
             </motion.div>
         );

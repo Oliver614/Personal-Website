@@ -3,14 +3,22 @@
     display: flex;
     flex-basis: auto;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
     height: 80vh;
     gap: 10px;
 }
 
-
+.Header{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    height: 11vh;
+}
 
 .smallContainer{
     display: flex;
@@ -29,4 +37,19 @@
 
 .name {
     color: rgb(209, 209, 209);
+}
+
+.Initials {
+    display: flex;
+    offset: 0px -30px ;
+    width: 118px;
+    height: 91px;
+}
+
+.Link-No-Decs{
+    text-decoration: none;
+}
+
+.Link-No-Decs:link{
+    text-decoration: none;
 }

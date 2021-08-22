@@ -1,0 +1,36 @@
+.Projects {
+    width: 85vw;
+    height: 80vh;
+    overflow-y: scroll;
+    padding: .88rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    box-shadow: 0 4px 2px 2px #000000;
+    color: rgb(209, 209, 209);
+}
+
+.ProjectsHeader{
+    display: flex;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    height: 9vh;
+}
+
+.ProjectsContainer{
+    
+    width: 85vw;
+    height: 80vh;
+    overflow-y: scroll;
+    padding: .88rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    box-shadow: 0 4px 2px 2px #000000;
+    color: rgb(209, 209, 209);
+}
+
+.ProjectsSocialIcons{
+    position: sticky;
+    bottom: 10px;
+
+}

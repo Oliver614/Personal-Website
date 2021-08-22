@@ -1,6 +1,6 @@
 .BigContainer {
     
-    width: 45vw;
+    width: 40vw;
     height: 80vh;
     overflow-y: scroll;
     padding: .88rem;
@@ -47,7 +47,7 @@
   top: 10px;
 }
 
-.Projects {
+.ProjectsWidget {
 
     width: 40vw;
     height: 50vh;

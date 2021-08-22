@@ -2,8 +2,11 @@
 import './App.css';
 import React from 'react';
 import EnterScreen from './EntryScreen/EnterScreen';
-import backgroundImage from './File_000_New.jpg';
+import backgroundImage from '../Images/File_000_New.jpg';
 import MainScreen from './MainScreen/Main';
+import { About } from '../About/About';
+import { Projects } from '../Projects/Projects';
+import { ShowCase } from '../ShowCase/ShowCase';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {AnimatePresence} from 'framer-motion'
 
@@ -16,14 +19,8 @@ class App extends React.Component
     this.state = {
       hasEntered: false
     }
-
-
   }
-
-
-// <img src = {backgroundImage}/>
- 
-
+  
   render()
   {
     return (
@@ -37,6 +34,9 @@ class App extends React.Component
               <Switch location = {location} key = {location.pathname}>
                 <Route exact path="/" component={EnterScreen} />
                 <Route path="/MainScreen" component={MainScreen} />
+                <Route path="/About" component={About} />
+                <Route path="/Projects" component={Projects} />
+                <Route path="/ShowCase" component={ShowCase} />
               </Switch>
             </AnimatePresence>
         
