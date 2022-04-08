@@ -26,13 +26,24 @@ class EnterScreen extends React.Component
             <motion.div  
                         initial={{ y: 400, opacity: 0 }}
                         animate={{ y: 0, opacity: 1, transition: {duration: 2} }}
-                        exit={{ y: -700, opacity: 0, transition: {duration: 1.5}}}
+                        exit={{ y: 0, opacity: 0, transition: {duration: 1.5}}}
                         
                         className='Enter'>
-                <h1>Hi, I'm Ollie</h1>
-                <Link to = "/MainScreen" >
-                <motion.button whileHover = {{scale: 1.1}} className = "Discover">Enter</motion.button>
-                </Link>
+                <h1>Hi, I'm Oliver</h1>
+
+                <div className='ButtonContainer'>
+
+
+                    <Link to = "/About" >
+                        <motion.button whileHover = {{scale: 1.1}} className = "AboutButton">About</motion.button>
+                    </Link>
+                    <Link to = "/MainScreen" >
+                        <motion.button whileHover = {{scale: 1.1}} className = "ProjectsButton">Projects</motion.button>
+                    </Link>
+                    <Link to = "/MainScreen" >
+                        <motion.button whileHover = {{scale: 1.1}} className = "ContactButton">Contact</motion.button>
+                    </Link>
+                </div>
                 
                 <div className = "socialContainer">
 
@@ -40,13 +51,16 @@ class EnterScreen extends React.Component
                         <SocialIcon className = "socialIcon" url="https://linkedin.com" target="_blank"/>
                     </motion.button>
 
-
                     <motion.button className = "socialButton" whileHover = {{scale: 1.05}} >
                         <SocialIcon className = "socialIcon" url="https://facebook.com" target="_blank"/>
                     </motion.button>
 
                     <motion.button className = "socialButton" whileHover = {{scale: 1.05}} >
                         <SocialIcon className = "socialIcon" url="https://github.com" target="_blank"/>
+                    </motion.button>
+
+                    <motion.button className = "socialButton" whileHover = {{scale: 1.05}} >
+                        <SocialIcon className = "socialIcon" url="https://instagram.com" target="_blank"/>
                     </motion.button>
                 </div>    
             </motion.div>

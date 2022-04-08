@@ -9,12 +9,38 @@
     object-fit: contain;
 }
 
-.Discover {
+.ButtonContainer {
+    border-spacing: 5rem;
+}
+
+.AboutButton {
     cursor: pointer;
     width: 8.11rem;
     padding: .77rem 1.5rem;
-    border-radius: 54px;
-    background-color: #000418b4;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 1rem;
+    
+}
+
+.AboutButton:Hover {
+    background-color: #00041842;
+}
+
+.ProjectsButton {
+    cursor: pointer;
+    width: 8.11rem;
+    padding: .77rem 1.5rem;
+
+    background-color: rgba(0, 0, 0, 0.568);
     text-align: center;
     font-size: 1rem;
     transition: background-color .25s;
@@ -25,21 +51,41 @@
     
 }
 
-.Discover:Hover {
+.ProjectsButton:Hover {
     background-color: #00041842;
 }
 
+.ContactButton {
+    cursor: pointer;
+    width: 8.11rem;
+    padding: .77rem 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.568);
+    text-align: center;
+    font-size: 1rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;  
+    margin-left: 1rem;
+}
+
+.ContactButton:Hover {
+    background-color: #00041842;
+}
 
 .socialContainer {
-    padding: 10px
+    padding: 1rem
 }
 
 .socialIcon {
-    width: 60px;
-    height: 60px;
+    width: 2rem;
+    height: 2rem;
     background-color: #000418b4;
-    border: 0px;
-    border-radius: 50% ;
+    border: 0rem;
+    border-radius: 50%;
 }
 
 .socialIcon:hover{
@@ -50,7 +96,7 @@
 .socialButton {
     
     background-color: #00041800;
-    border: 0px;
+    border: 0rem;
 }
 
 .socialButton:hover{

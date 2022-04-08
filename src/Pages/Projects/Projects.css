@@ -1,3 +1,68 @@
+.GoToEntryScreen
+{
+    cursor: pointer;
+    padding: .77rem 1.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-size: 2rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: rgb(209, 209, 209);
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 0rem;
+}
+
+.GoToAboutScreen
+{
+    cursor: pointer;
+    padding: .77rem 1.5rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-size: 2rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: rgb(209, 209, 209);
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 0rem;
+}
+
+.GoToProjectsScreen
+{
+    cursor: pointer;
+    padding: .77rem 1.5rem;
+
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-size: 2rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: rgb(209, 209, 209);
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 0rem;
+}
+
+.GoToContactScreen
+{
+    cursor: pointer;
+    padding: .77rem 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-size: 2rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: rgb(209, 209, 209);
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 0rem;
+}
+
 .Projects {
     width: 85vw;
     height: 80vh;
@@ -19,14 +84,14 @@
 }
 
 .ProjectsContainer{
-    
     width: 85vw;
     height: 80vh;
-    overflow-y: scroll;
+    overflow-y: hidden;
     padding: .88rem;
     background-color: rgba(0, 0, 0, 0.568);
     box-shadow: 0 4px 2px 2px #000000;
     color: rgb(209, 209, 209);
+    margin-top: 1rem;
 }
 
 .ProjectsSocialIcons{

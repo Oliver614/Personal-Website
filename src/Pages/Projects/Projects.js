@@ -2,32 +2,34 @@ import React from 'react';
 import './Projects.css'
 import {motion} from 'framer-motion';
 import { SocialIcon } from 'react-social-icons';
-import intials from "../Images/initials.png" 
+import { Link } from 'react-router-dom';
 
 export class Projects extends React.Component
 {
-    
-
-
     render()
     {
         return(
             <div>
+                
+                <Link to = "/" >
+                    <motion.button className='GoToEntryScreen' whileHover = {{scale: 1.05}}>Oliver Hodgson</motion.button>
+                </Link>
+                <Link to = "/About" >
+                    <motion.button className='GoToAboutScreen' whileHover = {{scale: 1.05}}>About</motion.button>
+                </Link>
+                <Link to = "/Projects" >
+                    <motion.button className='GoToProjectsScreen' whileHover = {{scale: 1.05}}>Projects</motion.button>
+                </Link>
+                <Link to = "/" >
+                    <motion.button className='GoToContactScreen' whileHover = {{scale: 1.05}}>Contact</motion.button>
+                </Link>
 
-                <motion.div
-                    initial = {{x: '-30vw', opacity: 0}} 
-                    animate = {{x: 0, opacity: 1, transition: {delay: 1.2, duration: 1}}} 
-                    className = "ProjectsHeader">
-                    <img className = "Initials" src = {intials} alt = ""/>
-                </motion.div>
-
-                <motion.div
-                    initial = {{width: '40vw', height: '49vh', x: '20vw', y: '2vh'}}
-                    animate = {{x: '0vw', y: '0vw', transition: {delay: 0.5, duration: 0.9}, width: '85vw', height: '80vh'}}  
+                <div  
                     className = "ProjectsContainer">
-
                     <h2 className = "title" >Projects</h2>
-
+                    <text>
+                        Insert Text Here.
+                    </text>
                         <motion.div
                             initial = {{opacity: 0}}
                             animate = {{opacity: 1, transition: {delay: 1.2}}}  
@@ -50,7 +52,7 @@ export class Projects extends React.Component
                                 <SocialIcon className = "socialIcon" url="https://instagram.com" target="_blank"/>
                             </motion.button>
                         </motion.div>
-                </motion.div>
+                </div>
             </div>
         );
     }

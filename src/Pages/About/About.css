@@ -1,4 +1,77 @@
 
+.GoToEntryScreen
+{
+    cursor: pointer;
+    padding: .77rem 1.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-size: 2rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: rgb(209, 209, 209);
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 0rem;
+}
+
+.MyText
+{
+    width: 40%;
+    margin-bottom: 1rem;
+    color: rgb(209, 209, 209);
+}
+
+.GoToAboutScreen
+{
+    cursor: pointer;
+    padding: .77rem 1.5rem;
+
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-size: 2rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: rgb(209, 209, 209);
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 0rem;
+}
+
+.GoToProjectsScreen
+{
+    cursor: pointer;
+    padding: .77rem 1.5rem;
+
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-size: 2rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: rgb(209, 209, 209);
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 0rem;
+}
+
+.GoToContactScreen
+{
+    cursor: pointer;
+    padding: .77rem 1.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-size: 2rem;
+    transition: background-color .25s;
+    border: 0px;
+    color: rgb(209, 209, 209);
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 0rem;
+}
+
 .About {
     width: 85vw;
     height: 80vh;
@@ -20,10 +93,10 @@
 }
 
 .AboutContainer{
-    
+    margin-top: 1rem;
     width: 85vw;
     height: 80vh;
-    overflow-y: scroll;
+    overflow-y: hidden;
     padding: .88rem;
     background-color: rgba(0, 0, 0, 0.568);
     box-shadow: 0 4px 2px 2px #000000;
@@ -32,6 +105,5 @@
 
 .AboutSocialIcons{
     position: sticky;
-    bottom: 10px;
-
+    bottom: 1rem;
 }
