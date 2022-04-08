@@ -37,10 +37,10 @@ class EnterScreen extends React.Component
                     <Link to = "/About" >
                         <motion.button whileHover = {{scale: 1.1}} className = "AboutButton">About</motion.button>
                     </Link>
-                    <Link to = "/MainScreen" >
+                    <Link to = "/Projects" >
                         <motion.button whileHover = {{scale: 1.1}} className = "ProjectsButton">Projects</motion.button>
                     </Link>
-                    <Link to = "/MainScreen" >
+                    <Link to = "/About" >
                         <motion.button whileHover = {{scale: 1.1}} className = "ContactButton">Contact</motion.button>
                     </Link>
                 </div>
