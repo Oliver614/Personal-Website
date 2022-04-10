@@ -54,10 +54,6 @@ class EnterScreen extends React.Component
                     </motion.button>
 
                     <motion.button className = "socialButton" whileHover = {{scale: 1.05}} >
-                        <SocialIcon className = "socialIcon" url="https://facebook.com/oliver.hodgson.50/" target="_blank"/>
-                    </motion.button>
-
-                    <motion.button className = "socialButton" whileHover = {{scale: 1.05}} >
                         <SocialIcon className = "socialIcon" url="https://github.com/oliver614" target="_blank"/>
                     </motion.button>
 
